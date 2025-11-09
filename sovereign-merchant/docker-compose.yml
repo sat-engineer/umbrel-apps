@@ -13,7 +13,7 @@ services:
     stop_grace_period: 1m
     volumes:
       # Mount data directory for SQLite database persistence
-      - ${APP_DATA_DIR}/data:/data
+      - ${APP_DATA_DIR}:/data
     environment:
       # Server configuration
       PORT: 4001
