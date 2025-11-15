@@ -7,7 +7,7 @@ services:
       APP_PORT: 4001
 
   web:
-    image: satengineer/sovereign-merchant:v0.0.1@sha256:e7b298c0432e8f875fe9afbecfc98eb84bd6af6dc728833a50776737b3da5feb
+    image: satengineer/sovereign-merchant:v0.0.1@sha256:66ec632c1389227f035d1cacf9693768a135a80b068f082ecc0d935c880e712f
     user: "1000:1000"
     restart: on-failure
     stop_grace_period: 1m
